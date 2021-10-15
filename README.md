@@ -11,6 +11,13 @@ Write a simple program for querying the given website for the given pii.
 - `npm test` - Runs tests.
 - `npm run coverage` - Runs code coverage.
 
+#### Config Input
+- Go to './src/index.ts'
+- You can play with parameters in index.ts
+
+![alt text](./screenshots/With_Response.png)
+
+
 [Pagination Example](https://www.peoplesearchexpert.com/?q%5Bfull_name%5D=john&q%5Blocation%5D=Texas%20City,%20TX)
 
 #### Assumptions
@@ -21,3 +28,4 @@ Write a simple program for querying the given website for the given pii.
 
 #### Todo
 - 💡 Handle pagination
+- 💡 Improve Testing

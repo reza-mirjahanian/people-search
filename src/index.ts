@@ -6,7 +6,7 @@ const test = async () => {
 
   // const url1 = await crawler.searchPeople('sdsds','Smith', '', 'Texas' , 'Houston');
   // console.log({url1})
-  //
+
   const url2 = await crawler.searchPeople('Bob', 'Smith', '', 'Texas', 'Houston');
   console.log({
     url2
